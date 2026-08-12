@@ -1,0 +1,57 @@
+
+*{
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.cabecalho-inicio{
+    display: flex;
+    gap: 16px;
+}
+
+.logotipo{
+    display: flex;
+align-items: center;
+
+}
+
+.logotipo-icone{
+    color: red;
+}
+
+.logotipo-pais{
+    font-size: 8px;
+color: gray;
+}
+
+.search{
+    display: flex;
+}
+
+.search-input{
+    border: 1px solid gray;
+    outline: none;
+    height: 32px;
+    width: 300px;
+    border-radius: 16px 0px 0px 16px;
+}
+
+.search-buttom{
+    width: 50px;
+    height: 32px;
+    border-radius: 0px 16px 16px 0px;
+}
+
+.microphone{
+    height: 32px;
+    width: 32px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
