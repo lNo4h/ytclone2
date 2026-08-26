@@ -1,0 +1,164 @@
+html, body{
+    font-size: 16px;
+}
+
+
+*{
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+    height: 10vh;
+  
+}
+
+.cabecalho-inicio{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.logotipo{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.logotipo-nome{
+font-weight: bold;
+}
+
+.logotipo-icone{
+    color: red;
+}
+
+.logotipo-pais{
+    font-size: 0.5rem;
+color: gray;
+}
+
+.cabecalho-centro{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+}
+
+.search-input{
+    border: 1px solid gray;
+    outline: none;
+    height: 2rem;
+    width: 20rem;
+    border-radius: 1rem 0px 0px 1rem;
+}
+
+.search-button {
+    width: 4rem;
+    height: 2rem;
+    border-radius: 0px 1rem 1rem 0px;
+}
+
+.microphone{
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.microphone:hover{
+    background-color: gray;
+    color: aliceblue;
+
+}
+
+.logotipo-icone{
+    color: red;
+}
+
+.logotipo-conta:hover{
+background-color: gray;
+color: aliceblue;
+}
+
+.logotipo-notificacoes:hover{
+    background-color: gray;
+    color: aliceblue;
+}
+
+.logotipo-video:hover {
+background-color: gray;
+color: aliceblue;
+}
+
+
+.logotipo-video {
+height: 2rem;
+width: 2rem;
+border-radius: 50%;
+
+}
+
+.logotipo-notificacoes{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+
+}
+
+.logotipo-pais{
+    font-size: 0.5rem;
+    color: gray;
+}
+
+
+.cabecalho-final{
+    display: flex;
+    background-color: white;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+
+.logotipo-conta{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+/* CSS DO MAIN */
+.principal{
+background-color: beige;
+height: 90vh;
+display: flex;
+}
+
+.principal-sidebar{
+    background-color: blueviolet;
+    width: 20vw;
+    overflow-y: auto;
+}
+
+.principal-video{
+    background-color: pink;
+    width: 55vw;
+}
+
+.principal-recomendados{
+    background-color: brown;
+    width: 25vw;
+}
+
+.sidebar-inicio, .sidebar-centro, .sidebar-final{
+display: flex;
+flex-direction: column;
+}
